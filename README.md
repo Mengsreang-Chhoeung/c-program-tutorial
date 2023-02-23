@@ -78,10 +78,11 @@ int main() {
 
 - Line 4: `printf()` is a function used to output/print text to the screen. In our example it will output "Hello World".
 
-  `Note that: Every C statement ends with a semicolon ;
-  Note: The body of int main() could also been written as:
-  int main(){printf("Hello World!");return 0;}
-  Remember: The compiler ignores white spaces. However, multiple lines makes the code more readable.`
+  `Note that: Every C statement ends with a semicolon ;`
+
+  `Note: The body of int main() could also been written as: int main(){printf("Hello World!");return 0;}`
+
+  `Remember: The compiler ignores white spaces. However, multiple lines makes the code more readable`
 
 - Line 5: `return 0` ends the `main()` function.
 
