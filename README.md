@@ -88,6 +88,84 @@ int main() {
 
 - Line 6: Do not forget to add the `closing curly bracket }` to actually end the main function.
 
+### C Output (Print Text)
+
+To output values or print text in **C**, you can use the `printf()` function:
+
+```c
+#include <stdio.h>
+
+int main() {
+  printf("Hello World!");
+  return 0;
+}
+```
+
+You can use as many `printf()` functions as you want. However, note that it does not insert a new line at the end of the output:
+
+```c
+#include <stdio.h>
+
+int main() {
+  printf("Hello World!");
+  printf("I am learning C.");
+  return 0;
+}
+```
+
+Let's see the output...
+
+```shell
+Hello World!I am learning C.
+Process returned 0 (0x0) execution time : 0.011 s
+Press any key to continue.
+```
+
+### C New Lines
+
+To insert a new line, you can use the `\n` character:
+
+```c
+#include <stdio.h>
+
+int main() {
+  printf("Hello World!\n");
+  printf("I am learning C.");
+  return 0;
+}
+```
+
+Output:
+
+```shell
+Hello World!
+I am learning C.
+Process returned 0 (0x0) execution time : 0.011 s
+Press any key to continue.
+```
+
+**Tip:** Two `\n` characters after each other will create a blank line:
+
+```c
+#include <stdio.h>
+
+int main() {
+  printf("Hello World!\n\n");
+  printf("I am learning C.");
+  return 0;
+}
+```
+
+Output:
+
+```shell
+Hello World!
+
+I am learning C.
+Process returned 0 (0x0) execution time : 0.011 s
+Press any key to continue.
+```
+
 ### 📜 References
 
 - [W3Schools](https://www.w3schools.com/c)
