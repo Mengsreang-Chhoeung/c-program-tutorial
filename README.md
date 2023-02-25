@@ -1,6 +1,6 @@
 # C Program Tutorial
 
-### What is C?
+## What is C?
 
 **C** is a general-purpose programming language created by **Dennis Ritchie** at the **Bell Laboratories** in `1972`.
 
@@ -8,7 +8,7 @@ It is a very popular language, despite being old.
 
 **C** is strongly associated with **UNIX**, as it was developed to write the **UNIX operating system**.
 
-### Why Learn C?
+## Why Learn C?
 
 - It is one of the most popular programming language in the world
 
@@ -18,13 +18,13 @@ It is a very popular language, despite being old.
 
 - **C** is very versatile; it can be used in both applications and technologies
 
-### Difference between C and C++
+## Difference between C and C++
 
 - **C++** was developed as an extension of **C**, and both languages have almost the same syntax
 
 - The main difference between **C** and **C++** is that **C++** support classes and objects, while **C** does not
 
-### Get Started With C
+## Get Started With C
 
 To start using **C**, you need two things:
 
@@ -32,7 +32,7 @@ To start using **C**, you need two things:
 
 - A compiler, like **GCC**, to translate the **C** code into a language that the computer will understand
 
-### C Quickstart
+## C Quickstart
 
 Let's create our first **C** file.
 
@@ -53,7 +53,7 @@ Process returned 0 (0x0) execution time : 0.011 s
 Press any key to continue.
 ```
 
-### C Syntax
+## C Syntax
 
 You have already seen the following code a couple of times in the first chapters. Let's break it down to understand it better:
 
@@ -88,7 +88,7 @@ int main() {
 
 - Line 6: Do not forget to add the `closing curly bracket }` to actually end the main function.
 
-### C Output (Print Text)
+## C Output (Print Text)
 
 To output values or print text in **C**, you can use the `printf()` function:
 
@@ -121,7 +121,7 @@ Process returned 0 (0x0) execution time : 0.011 s
 Press any key to continue.
 ```
 
-### C New Lines
+## C New Lines
 
 To insert a new line, you can use the `\n` character:
 
@@ -166,7 +166,7 @@ Process returned 0 (0x0) execution time : 0.011 s
 Press any key to continue.
 ```
 
-### What is `\n` exactly?
+## What is `\n` exactly?
 
 The newline character (`\n`) is called an escape sequence, and it forces the cursor to change its position to the beginning of the next line on the screen. This results in a new line.
 
