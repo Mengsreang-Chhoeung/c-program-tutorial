@@ -166,6 +166,18 @@ Process returned 0 (0x0) execution time : 0.011 s
 Press any key to continue.
 ```
 
+### What is `\n` exactly?
+
+The newline character (`\n`) is called an escape sequence, and it forces the cursor to change its position to the beginning of the next line on the screen. This results in a new line.
+
+Other valid escape sequences are:
+
+| Escape Sequence | Description                        |
+| --------------- | ---------------------------------- |
+| \t              | Creates a horizontal tab           |
+| \\\             | Inserts a backslash character (\\) |
+| \"              | Inserts a double quote character   |
+
 ### 📜 References
 
 - [W3Schools](https://www.w3schools.com/c)
